@@ -16,7 +16,7 @@ describe('JavaScript Data Types - Number', () => {
   test('subtractNumbers should return the difference between two numbers', () => {
     expect(subtractNumbers(10, 4)).toBe(6);
     expect(subtractNumbers(3, 8)).toBe(-5);
-  });
+  }); 
 
   test('multiplyNumbers should return the product of two numbers', () => {
     expect(multiplyNumbers(2, 6)).toBe(12);
